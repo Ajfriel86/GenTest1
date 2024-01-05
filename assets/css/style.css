@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Styling for the container with the ID "box" */
+#box {
+    /* Background color set to antique white */
+    background-color: antiquewhite;
+    /* Padding around the content inside the box */
+    padding: 10px;
+    /* Fixed height of the box */
+    height: 150px;
+    /* Use inline-flex display for flexbox layout */
+    display: inline-flex;
+    /* Arrange child elements in a column */
+    flex-direction: column;
+    /* Distribute space evenly between child elements */
+    justify-content: space-evenly;
+}
+
+/* Styling for the button with the ID "b1" */
+#b1 {
+    /* Fixed width of the button */
+    width: 100px;
+}
+
+/* Styling for the heading with the ID "t1" */
+#t1 {
+    /* Remove margin from the heading */
+    margin: 0;
+}
